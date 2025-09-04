@@ -1,0 +1,106 @@
+body{
+            background: #53b7e9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 70vh;
+        }
+        h2{
+            position: absolute;
+            top: 0px;
+            text-decoration:underline;
+        }
+        .board{
+            position: relative;
+            top: 0;
+            height: 316px;
+            width: 286px;
+        }
+        .lines{
+            height: 100px;
+            width: 90px;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 0vh;
+            font-weight: bold;
+            font-size: 50px;
+        }
+        .b2,.b5,.b8{
+            border-right: 8px solid black;
+            border-left: 8px solid black;
+        }
+        .b4,.b5,.b6{
+            border-top: 8px solid black;
+            border-bottom: 8px solid black;
+        }
+        .winline{
+            position: absolute;
+            height: 310px;
+            width: 0;
+            border:3px solid blue;
+            display: none;
+        }
+        .winnerdis{
+            position: absolute;
+            top: 540px;
+            color: rgb(8, 6, 129);
+            height: 40px;
+            width: 300px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .turn{
+            position: absolute;
+            top: 450px;
+            color: rgb(186, 28, 7);
+            height: 40px;
+            width: 300px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .mainmenu{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #53b7e9;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h3{
+            position: absolute;
+            font-size: 25px;
+        }
+        .symbol{
+            position: relative;
+            top: 60px;
+            margin: 20px;
+            width: 90px;
+            height: 60px;
+            background: yellow;
+            font-size: 24px;
+            border-radius: 8px;
+        }
+        .reset{
+            position: absolute;
+            top:490px;
+            height: 40px;
+            width: 90px;
+            color: white;
+            font-weight: bold;
+            background: blue;
+            border-radius: 5px;
+        }
+        .games{
+            position: absolute;
+            width: 80px;
+            height: 30px;
+            top: 5px;
+            left: 5px;
+            background: rgb(100, 233, 86);
+        }

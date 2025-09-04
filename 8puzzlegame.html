@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-Puzzle Game</title>
+    <link rel="stylesheet" href="8puzzlegame.css">
+    <script src="8puzzlegame.js">  
+    </script>
+</head>
+<body>
+    <a href="index.html"><button class="games">Back</button></a>
+    <div>
+        <h1 id="name">8-PUZZLE GAME.</h1>
+        <h4 id="movement"></h4>
+        <h4 id="timer"></h4>
+    </div>
+    <div class="box">
+        <button id="11" style="background-color: rgb(45, 45, 205); color: white;border: 1px solid white;" onclick="move('1',0)"><h3 id="1">1</h3></button>
+        <button id="12" style="background-color: rgb(45, 45, 205); color: white;border: 1px solid white;" onclick="move('2',1)"><h3 id="2">2</h3></button>
+        <button id="13" style="background-color: rgb(45, 45, 205); color: white;border: 1px solid white;" onclick="move('3',2)"><h3 id="3">3</h3></button>
+        <button id="14" style="background-color: rgb(45, 45, 205); color: white;border: 1px solid white;" onclick="move('4',3)"><h3 id="4">4</h3></button>
+        <button id="15" style="background-color: rgb(45, 45, 205); color: white;border: 1px solid white;" onclick="move('5',4)"><h3 id="5">5</h3></button>
+        <button id="16" style="background-color: rgb(45, 45, 205); color: white;border: 1px solid white;" onclick="move('6',5)"><h3 id="6">6</h3></button>
+        <button id="17" style="background-color: rgb(45, 45, 205); color: white;border: 1px solid white;" onclick="move('7',6)"><h3 id="7">7</h3></button>
+        <button id="18" style="background-color: rgb(45, 45, 205); color: white;border: 1px solid white;" onclick="move('8',7)"><h3 id="8">8</h3></button>
+        <button id="19" style="background-color: rgb(45, 45, 205); color: white;border: 1px solid white;" onclick="move('9',8)"><h3 id="9">9</h3></button>
+    </div>
+    <button class="suffling" onclick="shuffle()">Shuffle</button><br>
+    <button class="restart" onclick="reset()">Re-Start</button><br>
+    <h2 id='message'></h2>
+</body>
+</html>

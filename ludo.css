@@ -1,0 +1,230 @@
+body{
+            background: #79dafb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .ludoboard{
+            position: absolute;
+            top: 130px;
+        }
+        .die{
+            width: 25px;
+            height:25px;
+            border-radius: 50%;
+            position: absolute;
+            border: 7px double black;
+        }
+        .red{
+            background: rgb(201, 3, 3);
+        }
+        .green{
+            background: rgb(12, 219, 12);
+        }
+        .yellow{
+            background: rgb(207, 207, 4);
+        }
+        .blue{
+            background: blue;
+        }
+        .dice{
+            background: #000;
+            position: absolute;
+            width:50px;
+            height:50px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .values{
+            height: 45px;
+            width: 45px;
+            border-radius: 5px;
+        }
+        .dot{
+            height: 8px;
+            width: 8px;
+            margin:auto;
+            border-radius: 50%;
+            background: #000;
+        }
+        .player_chance{
+            margin-top: 80px;
+            background: #a2f789;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            font-weight: bold;
+            font-size: 17px;
+            color: red;
+        }
+        .player_selection{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: blue;
+            z-index: 1002;
+            color: rgb(0, 0, 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            position: absolute;
+            top: 10px;
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 5px red,0 0 10px red,0 0 20px red;
+        }
+        p{
+            position: relative;
+            text-align: center;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        .startplaying{
+            font-weight: bold;
+            margin-left: 35%;
+            width: 100px;
+            height: 50px;
+            border-radius: 20px;
+            background: linear-gradient(rgb(229, 249, 13),rgb(87, 248, 242));
+        }
+        .wraping{
+            position: relative;
+            top: 0px;
+        }
+        .select_player{
+            transform: scale(1.8);
+            margin: 20px;
+            margin-top: -30px;
+        }
+        .noofplayers{
+            border: 10px double rgb(67, 241, 67);
+            background: white;
+            font-weight: bold;
+            padding: 10px;
+            position: absolute;
+            top: 300px;
+        }
+        .logo{
+            position: absolute;
+            top: 100px;
+            height: 180px;
+            border-radius: 50%;
+            width: 180px;
+            border: 8px solid rgb(43, 236, 75);
+        }
+        .backbutton{
+            position: fixed;
+            top:0px;
+            left: 0px;
+            height: 30px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background: rgb(18, 45, 217);
+            color: white;
+        }
+        .backbutton:hover{
+            transform: scale(1.05);
+        }
+        .backbutton:active{
+            transform: scale(1);
+            border: 3px solid black;
+            
+        }
+        .resume{
+            font-weight: bold;
+            margin-left: 35%;
+            margin-top: 10px;
+            width: 100px;
+            height: 50px;
+            border-radius: 20px;
+            background: linear-gradient(rgb(229, 249, 13),rgb(87, 248, 242));
+            display:none;
+        }
+        .warning{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0);
+            backdrop-filter: blur(5px);
+            z-index: 1001;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: none;
+        }
+        .message{
+            position: relative;
+            text-align: center;
+            width:400px;
+            height:200px;
+            padding: 20px;
+            border:2px solid blue;
+            background: blue;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+        .yes,.no{
+            font-weight: bold;
+            width:60px;
+            margin-left:20px;
+            height: 40px;
+            border-radius: 5px;
+        }
+        .winnerlist{
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 400px;
+            border: 3px solid blue;
+        }
+        .games{
+            position: absolute;
+            width: 80px;
+            height: 30px;
+            top: 5px;
+            left: 5px;
+            background: rgb(100, 233, 86);
+        }
+        .winmenu{
+            width: 100%;
+            height: 100%;
+            background: blue;
+            position: fixed;
+            top: 0;
+            z-index:2000;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+        .winn{
+            position: absolute;
+            top: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            width: 300px;
+            padding: 20px;
+            border: 8px double green;
+            border-radius: 15px;
+            height: auto;
+            background: white;
+        }
+        .backmenu{
+            background: rgb(17, 180, 17);
+            height: 40px;
+            width: 100px;
+            color: white;
+            border: 1px solid white;
+            font-weight: bold;
+        }

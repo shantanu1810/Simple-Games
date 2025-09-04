@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake and Ladder</title>
+    <link rel="stylesheet" href="snake_and_ladder.css">
+    <script src="snake_and_ladder.js">
+        
+    </script>
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html"><button class="games">Back</button></a>
+        <img class="logo"src="snake_ladder_logo.png" alt="LOGO">
+        <div class="noofplayers">
+            <p>Choose the number of Players</p> <br>
+           <div class="wraping"> <input class="select_player" type="radio" name="player">2 Players
+            <input class="select_player" type="radio" name="player">3 Players
+            <input class="select_player" type="radio" name="player">4 Players</div>
+            <button class="startplaying" onclick="displayboard()">New Game</button> <br>
+            <button class="resume" onclick="startagain();">Resume</button>
+        </div>
+    </div>
+    <div class="header">
+        <button class="backtomain" onclick="mainmenu(0)">Main Menu</button>
+        <h1>Snake and ladder</h1>
+    </div>
+    <div class="winner_display">
+        <div class="ranking">
+            <h2 id="name1">Winner Ranking</h2>
+        </div>
+        <button class="backmenu" onclick="mainmenu(1)">Main Menu</button>
+    </div>
+    <div class="board">
+        <img src="snake_ladder.webp" alt="board" width="450px">
+        <div class="keepply">
+
+        </div>
+        <div class="player red"></div>
+        <div class="player blue"></div>
+        <div class="player yellow"></div>
+        <div class="player green"></div>
+        <div class="st"><button class="dice" onclick="roll()"></button></div>
+        <div class="chance">
+            1st Player Chance (red)
+        </div>
+        <div class="winners">
+            <h2 id="name">Winner Ranking</h2>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <script src="tictactoe.js"></script>
+</head>
+<body>
+    <div class="mainmenu">
+        <h3>Choose the Symbol you want to use.</h3><br><br>
+        <button class="symbol" onclick="startgame(-1)">❌</button>
+        <button class="symbol" onclick="startgame(1)">⭕</button>
+    </div>
+    <a href="index.html"><button class="games">Back</button></a>
+    <h2>Tic Tac Toe Game</h2>
+    <div class="board">
+            <div class="lines b1" onclick="cross_circle(0,0)"></div>
+            <div class="lines b2" onclick="cross_circle(0,1)"></div>
+            <div class="lines b3" onclick="cross_circle(0,2)"></div>
+            <div class="lines b4" onclick="cross_circle(1,0)"></div>
+            <div class="lines b5" onclick="cross_circle(1,1)"></div>
+            <div class="lines b6" onclick="cross_circle(1,2)"></div>
+            <div class="lines b7" onclick="cross_circle(2,0)"></div>
+            <div class="lines b8" onclick="cross_circle(2,1)"></div>
+            <div class="lines b9" onclick="cross_circle(2,2)"></div>
+            <div class="winline" style="transform: rotate(0);left: 45px;"></div>
+            <div class="winline" style="transform: rotate(0);left: 140px;"></div>
+            <div class="winline" style="transform: rotate(0);left: 240px;"></div>
+            <div class="winline" style="transform: rotate(90deg);top:-100px;left: 140px;"></div>
+            <div class="winline" style="transform: rotate(90deg);left: 140px;top:0px;"></div>
+            <div class="winline" style="transform: rotate(90deg);left: 140px;top:100px;"></div>
+            <div class="winline" style="transform: rotate(138deg);left: 138px;"></div>
+            <div class="winline" style="transform: rotate(42deg);left: 144px;"></div>
+    </div>
+    <div class="turn">
+    </div>
+    <div class="winnerdis">
+    </div>
+    <button class="reset" onclick="reset()">Restart
+    </button>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+            background: #79dafb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 70vh;
+        }
+        .box{
+            display:flex;
+            flex-wrap: wrap;
+            height:150px;
+            width:150px;
+            background-color: rgb(45, 45, 205);
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            height:50px;
+            width:50px;
+        }
+        .box2{
+            display:flex;
+            flex-wrap:wrap;
+            height:100px;
+            width:150px;
+            justify-content: center;
+            align-items: center;
+        }
+        #name{
+            position: fixed;
+            text-decoration: underline;
+            top: 0px;
+            margin-left: -40px;
+            color: rgb(255, 255, 255);
+            text-shadow: 0 0 5px red, 0 0 10px red, 0 0 20px red;
+        }
+        #movement{
+            position: absolute;
+            color: rgb(255, 255, 255);
+            top: 50px;
+            font-weight: bold;
+            font-size: 19px;
+            text-shadow: 0 0 5px red, 0 0 10px red, 0 0 20px red;
+        }
+        #timer{
+            position: absolute;
+            color: white;
+            top: 80px;
+            font-weight: bold;
+            font-size: 19px;
+            text-shadow: 0 0 5px red, 0 0 10px red, 0 0 20px red;
+        }
+        #message{
+            position: absolute;
+            top: 140px;
+            color: white;
+            text-shadow: 0 0 5px red, 0 0 10px red, 0 0 20px red;
+        }
+        .suffling{
+            position: absolute;
+            top:350px;
+            font-weight: bold;
+            width: 60px;
+            height: 40px;
+            margin-left: -80px;
+        }
+        .restart{
+            position: absolute;
+            top:350px;
+            font-weight: bold;
+            width: 70px;
+            height: 40px;
+            margin-left: 70px;
+        }
+        .games{
+            position: absolute;
+            width: 80px;
+            height: 30px;
+            top: 5px;
+            left: 5px;
+            background: rgb(100, 233, 86);
+        }
