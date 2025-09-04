@@ -11,8 +11,8 @@ body{
             text-decoration:underline;
         }
         .board{
-            position: relative;
-            top: 0;
+            position: absolute;
+            top: 100px;
             height: 316px;
             width: 286px;
         }
@@ -103,4 +103,5 @@ body{
             top: 5px;
             left: 5px;
             background: rgb(100, 233, 86);
+
         }
